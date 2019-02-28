@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background:#fcf9f9;
+
+}
+/*头部开始*/
+.index-header {
+    width: 100%;
+    height: 1.1rem;
+    background: #835f3d;
+    line-height: 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.index-header h2 {
+    color: #ffffff;
+    font-size: 0.36rem;
+    font-weight: 200;
+    text-align: center;
+}
+.index-header i{
+    position: absolute;
+    left: 0.24rem;
+    top: 0.08rem;
+    font-size: 0.36rem;
+    color: #ffffff;
+}
+h6{
+    font-size: 0.36rem;
+    color: #000000;
+    text-align: center;
+    margin-top: 2.2rem;
+    font-weight: 500;
+}
+.maomao{
+    width: 6rem;
+    height: 1.2rem;
+    border: none;
+    border-bottom: 0.01rem solid #929191;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 0.24rem;
+    background:#fcf9f9;
+}.tutu{
+    width: 6rem;
+    height: 1.2rem;
+    border: none;
+    border-bottom: 0.01rem solid #929191;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 2.72rem;
+    font-size: 0.24rem;
+    /*color: #eae7e7;*/
+    background:#fcf9f9;
+}
+ i{
+     font-size: 0.3rem;
+     font-weight: 400;
+     color: #bdbbbb;
+     position: absolute;
+     right: 1.05rem;
+     top: 4.6rem;
+ }.denglu{
+    width: 6rem;
+    height: 1.2rem;
+    background: #835f3d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.36rem;
+    color: #ffffff;
+   }
+  span{
+      font-size: 0.24rem;
+      color: #808080;
+      position: absolute;
+      left: 3rem;
+
+      top: 9.5rem;
+  }
+span i{
+    font-size: 0.3rem;
+    font-weight: 400;
+    color: #bdbbbb;
+    position: absolute;
+    left: 1.3rem;
+    top: 0;
+}
+/*头部结束*/

@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*头部开始*/
+.index-header {
+    width: 100%;
+    height: 1.1rem;
+    background: #835f3d;
+    line-height: 1rem;
+    position: relative;
+}
+
+.index-header h2 {
+    color: #ffffff;
+    font-size: 0.36rem;
+    font-weight: 200;
+    text-align: center;
+
+}
+/*头部结束*/
+.shopping-song{
+    width:100%;
+    height: 0.9rem;
+    border: 0.03rem solid #f2f2f2;
+    padding: 0 0.24rem;
+    background: #ffffff;
+
+    box-sizing: border-box;
+}
+.shopping-song-left{
+    width: 1.5rem;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #2d2d2d;
+
+}
+.shopping-song-left span{
+    margin: 0 0.1rem;
+}
+.shopping-song-left i{
+    color: #d34843;
+}
+.shopping-song-right{
+    width: 1.5rem;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #2d2d2d;
+}
+.shopping-song-right span{
+    padding: 0 0.1rem;
+}
+/*商品开始*/
+.xiaolun-box{
+    width: 100%;
+    height: 2rem;
+    padding: 0 0.3rem;
+    background: #ffffff;
+
+    box-sizing: border-box;
+    position: relative;
+}
+.xiaolun-box i{
+    color: #d34843;
+
+}
+.xiaolun-img{
+    width: 1.7rem;
+    height: 1.7rem;
+    position: absolute;
+    left:0.8rem ;
+    top: 0.12rem;
+}
+.xiaolun-img img{
+    display: block;
+    width: 100%;
+}
+.xiaolun-box h4{
+    font-size: 0.24rem;
+    color: #0c0c0c;
+    font-weight: 600;
+    position: absolute;
+    top: 0.4rem;
+    left: 2.8rem;
+}
+.xiaolun-box span{
+    font-size: 0.36rem;
+    color: #e30d0d;
+    position: absolute;
+    top: 1.24rem;
+    left: 2.8rem;
+}
+.xiaolun-box .last{
+    width: 2.25rem;
+    height: 0.57rem;
+    border: 0.03rem solid #cecece;
+    position: absolute;
+    top: 0.96rem;
+    left: 4.54rem;
+    font-size: 0.36rem;
+    color: #353535;
+    text-align: center;
+    line-height: 0.57rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xiaolun-box .last .box{
+    width: 0.57rem;
+    height: 0.57rem;
+    background: #f3f3f3;
+    font-size: 0.4rem;
+}
+.xiaolun-box .last .box:nth-child(1){
+    border-right: 0.03rem solid #cecece;
+}
+.xiaolun-box .last .box:nth-child(2){
+    border-left: 0.03rem solid #cecece;
+}
+/*商品结束*/
+body{
+    background: #f2f2f2;
+}
+/*结算开始*/
+.jiesuan{
+    width: 100%;
+    height: 1.1rem;
+    background: #ffffff;
+    /*margin-top: 7.1rem;*/
+    box-sizing: border-box;
+    padding: 0 0.3rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 1.13rem;
+    border-bottom: 0.03rem solid #cecece;
+}
+.jiesuan i{
+    color: #d34843;
+}
+.jiesuan span{
+    font-size: 0.24rem;
+    color: #a2a2a2;
+    position: absolute;
+    left: 2.34rem;
+}
+.jiesuan h3{
+    font-size: 0.3rem;
+    color: #3e3e3e;
+    font-weight: 400;
+    position: absolute;
+    left: 3.4rem;
+}
+.jiesuan h4{
+    font-size: 0.3rem;
+    color: #d40404;
+    font-weight: 400;
+
+    position: absolute;
+    left: 4.15rem;
+}
+.jiesuan-right{
+    width: 2rem;
+    height: 100%;
+    font-size: 0.3rem;
+    color: #f4f4f4;
+    background: #d34843;
+    text-align: center;
+    line-height: 1.1rem;
+    position: absolute;
+    right: 0;
+}
+/*结算结束*/
+.index-last {
+    width: 100%;
+    height: 1.1rem;
+    margin: 0 auto;
+    padding: 0 0.24rem;
+    background: #ffffff;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-box {
+    width: 1rem;
+    height: 0.9rem;
+    margin: 0.2rem 0.3rem;
+    font-size: 0.24rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #999999;
+}.last-box:nth-child(3){
+     color: #cfa270;
+ }
+.last-box-img {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 auto;
+}
+.last-box-img img {
+    display: block;
+    width: 100%;
+}
